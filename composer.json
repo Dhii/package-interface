@@ -1,0 +1,12 @@
+{
+  "name": "dhii/package-interface",
+  "description": "Interfaces for package-related interop",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Ukhanev",
+      "email": "xedin.unknown@gmail.com"
+    }
+  ]
+}
