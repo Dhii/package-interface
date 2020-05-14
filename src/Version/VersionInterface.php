@@ -3,12 +3,13 @@ declare(strict_types=1);
 
 namespace Dhii\Package\Version;
 
+use Dhii\Util\String\StringableInterface;
 use Exception;
 
 /**
  * Represents a SemVer-compliant version.
  */
-interface VersionInterface
+interface VersionInterface extends StringableInterface
 {
     /**
      * Retrieves the string representation of this object.

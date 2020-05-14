@@ -3,6 +3,7 @@
 namespace Version;
 
 use Dhii\Package\Version\VersionInterface as Subject;
+use Dhii\Util\String\StringableInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
@@ -28,6 +29,7 @@ class VersionInterfaceTest extends TestCase
 
         {
             $this->assertInstanceOf(Subject::class, $subject);
+            $this->assertInstanceOf(StringableInterface::class, $subject);
         }
     }
 }
