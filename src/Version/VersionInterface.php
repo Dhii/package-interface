@@ -47,7 +47,7 @@ interface VersionInterface extends StringableInterface
      *
      * @throws Exception If problem retrieving.
      */
-    public function getPreRelease(): string;
+    public function getPreRelease(): array;
 
     /**
      * Retrieves the version's build metadata.
@@ -57,5 +57,5 @@ interface VersionInterface extends StringableInterface
      *
      * @throws Exception If problem retrieving.
      */
-    public function getBuild(): string;
+    public function getBuild(): array;
 }
