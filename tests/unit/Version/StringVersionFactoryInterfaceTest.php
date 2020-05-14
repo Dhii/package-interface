@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 class StringVersionFactoryInterfaceTest extends TestCase
 {
     /**
-     * @param string $version
+     * Creates a new instance of the test subject.
      *
      * @return Subject|MockObject
      */
