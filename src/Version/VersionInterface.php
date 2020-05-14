@@ -50,7 +50,8 @@ interface VersionInterface extends StringableInterface
     /**
      * Retrieves the version's build metadata.
      *
-     * @return string The build metadata.
+     * @return string[] A series of identifiers.
+     *                  Each is a non-empty alphanumeric+hyphen string.
      *
      * @throws Exception If problem retrieving.
      */
