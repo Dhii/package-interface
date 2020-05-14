@@ -12,15 +12,6 @@ use Exception;
 interface VersionInterface extends StringableInterface
 {
     /**
-     * Retrieves the string representation of this object.
-     *
-     * @return string The string representation.
-     *
-     * @throws Exception If problem retrieving.
-     */
-    public function __toString();
-
-    /**
      * Retrieves the version's major number.
      *
      * @return int The major number.
