@@ -6,5 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [[*next-version*]] - YYYY-MM-DD
 
-## [0.1.0-alpha1] - 2020-04-14
+## [0.1.0-alpha2] - 2020-05-14
+### Removed
+- `PluginInterface`. Was added here by mistake.
+
+## [0.1.0-alpha1] - 2020-05-14
 Initial version.
