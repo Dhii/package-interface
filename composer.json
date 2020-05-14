@@ -16,5 +16,13 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^7.0 | ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dhii\\Package\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "Dhii\\Package\\Test\\Unit\\": "tests/unit"
   }
 }
