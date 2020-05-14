@@ -24,5 +24,10 @@
   },
   "autoload-dev": {
     "Dhii\\Package\\Test\\Unit\\": "tests/unit"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-taask/initial-interfaces": "0.1.x-dev"
+    }
   }
 }
