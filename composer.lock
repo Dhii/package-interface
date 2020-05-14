@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "626c98a805b896123788a9145a728436",
+    "content-hash": "69b375b9473b52a615eab8cc3404693a",
     "packages": [
         {
             "name": "dhii/stringable-interface",
