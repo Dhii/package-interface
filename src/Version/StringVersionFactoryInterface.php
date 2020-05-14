@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace Dhii\Package\Version;
 
+use DomainException;
 use Exception;
 
 /**
@@ -17,6 +18,7 @@ interface StringVersionFactoryInterface
      *
      * @return VersionInterface The new version.
      *
+     * @throws DomainException If version string is malformed.
      * @throws Exception If problem creating.
      */
     public function createVersionFromString(string $version): VersionInterface;
