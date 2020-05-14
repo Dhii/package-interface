@@ -41,7 +41,9 @@ interface VersionInterface extends StringableInterface
     /**
      * Retrieves the version's pre-release identifier.
      *
-     * @return string[] The pre-release identifiers, e.g. "alpha1".
+     * @return string[] A list of identifiers.
+     *                  Each is a non-empty alphanumeric+hyphen string.
+     *                  If numeric, has no leading zeroes.
      *
      * @throws Exception If problem retrieving.
      */
