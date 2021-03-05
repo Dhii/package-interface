@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0789c818879a7b50f2160606d4193e2f",
+    "content-hash": "b04d12928b155f2ffa72aee87e32c69b",
     "packages": [
         {
             "name": "dhii/stringable-interface",
@@ -1796,7 +1796,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1"
+        "php": "^7.1 | ^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
