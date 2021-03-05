@@ -1,4 +1,4 @@
-# Dhii - Package Interfaces
+# Package Interfaces
 Interfaces for package-related interop.
 
 ## Details
@@ -11,3 +11,9 @@ The idea is that packages are located somewhere, have a name, and a version.
 A version is a SemVer-compliant comparable identifier.
 Versions also need to be compared, so as to determine whether a version satisfies
 a specific version constraint
+
+## Development
+This project ships with Docker and PHPStorm configurations. Just
+copy `.env.example` to `.env`, tweak if necessary, then use
+`docker-compose` to run various tools, or use PHPStorm integrations.
+
