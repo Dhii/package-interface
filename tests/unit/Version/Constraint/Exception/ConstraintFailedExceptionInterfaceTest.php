@@ -31,7 +31,6 @@ class ConstraintFailedExceptionInterfaceTest extends TestCase
         {
             $this->assertInstanceOf(Subject::class, $subject);
             $this->assertInstanceOf(ValidationFailedExceptionInterface::class, $subject);
-            $this->assertInstanceOf(ValidationExceptionInterface::class, $subject);
         }
     }
 }
