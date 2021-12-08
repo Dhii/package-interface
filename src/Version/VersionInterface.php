@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Dhii\Package\Version;
 
-use Dhii\Util\String\StringableInterface;
 use Exception;
+use Stringable;
 
 /**
  * Represents a SemVer-compliant version.
  */
-interface VersionInterface extends StringableInterface
+interface VersionInterface extends Stringable
 {
     /**
      * Retrieves the version's major number.
